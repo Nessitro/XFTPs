@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Mobile.Views.LabelView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="LabelTutorial"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <StackLayout Margin="20,35,20,20">
+            <Label FontSize="Medium" TextColor="Gray">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="This sentence contains " />
+                        <Span FontAttributes="Italic" Text="words that are emphasized, " />
+                        <Span Text="and underlined." TextDecorations="Underline" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

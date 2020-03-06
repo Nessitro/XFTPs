@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Mobile.Views.MainView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button BindingContext="FEATURE_ENTRY" Clicked="Feature_Clicked" />
+            <Button BindingContext="FEATURE_EDITOR" Clicked="Feature_Clicked" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button BindingContext="FEATURE_FENETRES" Clicked="Feature_Clicked" />
+            <Button BindingContext="FEATURE_IMAGE" Clicked="Feature_Clicked" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button BindingContext="FEATURE_LABEL" Clicked="Feature_Clicked" />
+            <Button BindingContext="FEATURE_STACKLAYOUT" Clicked="Feature_Clicked" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button BindingContext="FEATURE_GRILLE" Clicked="Feature_Clicked" />
+            <Button BindingContext="FEATURE_LISTE" Clicked="Feature_Clicked" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button BindingContext="FEATURE_GESTIONIMAGE" Clicked="Feature_Clicked" />
+            <Button BindingContext="FEATURE_MULTIPAGE" Clicked="Feature_Clicked" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Mobile.Views.AlertView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="PopupsTutorial"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <StackLayout Margin="20,35,20,20">
+            <Button Clicked="DisplayAlert_Clicked" Text="Display alert" />
+            <Button Clicked="DisplayAlertQuestion_Clicked" Text="Display alert question" />
+            <Button Clicked="DisplayActionSheet_Clicked" Text="Display action sheet" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
